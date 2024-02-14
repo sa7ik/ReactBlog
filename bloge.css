@@ -1,0 +1,9 @@
+#list{
+    width:180px;
+    margin:5vw;
+    height: 150px;
+    background:lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
