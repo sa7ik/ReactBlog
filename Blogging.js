@@ -8,10 +8,7 @@ export const context=createContext();
 function Blogging() {
     
     const [total,setTotal]=useState([]);
-    // const value={
-    //     total,
-    //     setTotal,
-    // }
+    
   return (
     <div>
             <context.Provider value={[total,setTotal]}>
